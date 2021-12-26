@@ -12,7 +12,7 @@ h1 {
 
 h2 {
     font-weight: 500px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -23,10 +23,6 @@ h2 {
     margin: 5px;
     display: inline-block;
     font-family: 'Bitter', serif;
-}
-
-.color-label {
-    text-transform: uppercase;
 }
 
 .green {
@@ -43,4 +39,38 @@ h2 {
 
 .blue {
     background-color: #cce6ff;
+}
+
+.font-panel {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+.font-label {
+    font-weight: 400;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 10px;
+    width: fit-content;
+}
+
+.libre-franklin {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bitter {
+    font-family: 'Bitter', serif;
+}
+
+.red-hat-mono {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
